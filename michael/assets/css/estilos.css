@@ -1,0 +1,40 @@
+.centro{
+	text-align: center;
+}
+
+.elemento{
+
+	width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    float:left;
+    margin-left:5px;
+	padding:5px;
+	
+}
+
+
+.bloque{
+	width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #25A2BE;
+    color: white;
+    margin-top: 10px;
+    float:left;
+    margin-left:5px;
+	padding:5px;
+	animation: move 1s ease;
+ }
+
+@keyframes move {
+  20%, 100% {
+    transform: translate(20px, 0);
+  }
+  
+}
